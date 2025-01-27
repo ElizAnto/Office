@@ -1,0 +1,11 @@
+[package]
+name = "Office"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+druid = "0.8.3"
+#rusqlite = "0.32.1"
+rusqlite = { version = "0.32.1", features = ["bundled"] }
+
+
